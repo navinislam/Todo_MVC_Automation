@@ -26,7 +26,7 @@ Exercise automating the todo mvc react application
 
 `mvn clean verify -Dtags=UI serenity:aggregate`
 
-###Note:
+### Note:
 Security tests are expected to fail. 
 The tests are designed to insert XSS injections and 
 then not able to get the text of items in the list, as an Alert popup should prevent it from doing so.
