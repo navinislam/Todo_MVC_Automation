@@ -17,9 +17,10 @@ Exercise automating the todo mvc react application
 5. Watch tests run
 6. After tests have finished running go into "target" folder
 7. Open "site" folder
-8. Scroll till you find "index" file
-9. Open index file in preferred browser (Chrome works best)
-10. View your results
+8. Open "serenity" folder
+9. Scroll till you find "index" file
+10. Open index file in preferred browser (Chrome works best)
+11. View your results
 
 ##### To run only Security or only UI tests run the following commands respectively:
 `mvn clean verify -Dtags=SECURITY serenity:aggregate`
